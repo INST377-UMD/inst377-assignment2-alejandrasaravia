@@ -1,0 +1,47 @@
+<html></html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="pages.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>INST377 - Activities</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stocks.html">Stocks</a></li>
+            <li><a href="dogs.html">Dogs</a></li>
+        </ul>
+    </nav>  
+
+    <h1>These are some different activities we can try!</h1>
+    <main id="mainhome">
+        <div id="button-container">
+            <button class="button-50" id="btn-stocks">Stocks</button>
+            <button class="button-50" id="btn-dogs">Dogs</button>
+        </div>
+
+        <section id="quote-section">
+            <h1>Quote of the Page Load</h1>
+            <blockquote id="quote" class="quote-box">Loading...</blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <div id="audio-instructions">
+          <h3>Audio Navigation Instructions</h3>
+          <ul>
+            <li>Say "Hello" to display "Hello World!"</li>
+            <li>Say "Change the color to <color>" to change the background color.</li>
+            <li>Say "Navigate to <page>" to navigate to another page (e.g., "Navigate to dogs").</li>
+          </ul>
+          <button id="turn-on-audio">Turn On Audio</button>
+          <button id="turn-off-audio">Turn Off Audio</button>
+        </div>
+      </footer>
+     
+
+ 
+  <script src="audio.js"></script>
+</body>
+</html>

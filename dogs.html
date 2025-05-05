@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Dogs Page</title>
+  <link rel="stylesheet" href="pages.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
+</head>
+<body>
+  <h1>INST377 - Doggos</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stocks.html">Stocks</a></li>
+      <li><a href="dogs.html">Dogs</a></li>
+    </ul>
+  </nav>  
+  <main>
+
+    <section>
+      <h2>Doggos! &#128054;</h2>
+      <div id="dog-carousel" data-simple-slider></div>
+    </section>
+   
+    <section>
+      <h2>Dog Breeds</h2>
+      <div id="breed-buttons-container"></div>
+      <div id="breed-info" style="display: none;">
+        <h3 id="breed-name"></h3>
+        <p id="breed-description"></p>
+        <p><strong>Min Life Expectancy:</strong> <span id="min-life"></span> years</p>
+        <p><strong>Max Life Expectancy:</strong> <span id="max-life"></span> years</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div id="audio-instructions">
+      <h3>Audio Navigation Instructions</h3>
+      <ul>
+        <li>Say "Hello" to display "Hello World!"</li>
+        <li>Say "Change the color to <color>" to change the background color.</li>
+        <li>Say "Navigate to <page>" to navigate to another page (e.g., "Navigate to dogs").</li>
+      </ul>
+      <button id="turn-on-audio">Turn On Audio</button>
+      <button id="turn-off-audio">Turn Off Audio</button>
+    </div>
+  </footer>
+ 
+
+ 
+  <script src="audio.js"></script>
+  <script src="dogs.js"></script>
+</body>
+</html>
